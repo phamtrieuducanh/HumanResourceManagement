@@ -1,0 +1,19 @@
+TẬP TIN HƯỚNG DẪN
+1. Tập tin báo cáo: Giảng viên chọn thư mục Báo Cáo, rồi chọn file word hoặc file pdf để xem
+
+2. Thư mục Cơ sở dữ liệu và thư mục Ứng dụng giảng viên sử dụng ứng dụng MICROSOFT SQL SERVER
+Giảng viên có thể lưu 2 file QUANLYNHANSU.mdf và QUANLYNHANSU_log.ldf
+Theo đường dẫn sau: C:\Program Files\Microsoft SQL Server\MSSQL16.(sever name)\MSSQL\DATA
+**Lưu ý: sever name là tên máy chủ dùng để kết nối MICROSOFT SQL SERVER
+Sau đó, giảng viên tiến hành vào MICROSOFT SQL SERVER và kết nối máy chủ
+
+3. Truy cập CSDL
+ * Lưu tập tin.mdf
+Bước 1: Giảng viên click chuột phải vào Database (phía trên bên trái giao diện ứng dụng)
+Bước 2: Chọn Attach
+Bước 3: Tại bảng MDF File Location,chọn Add
+Bước 4: Tìm đến đường dẫn trên để chọn tập tin QUANLYNHANSU.mdf, sau đó chọn ok
+Bước 5: Kiểm tra tại mục Associated Files đã có 2 file đã lưu vào ban đầu chưa, sau đó chon ok
+
+
+Việc Attach đã được thực hiện, chọn Refresh để ứng dụng load lại và giảng viên có thể truy cập cơ sở dữ liệu.
